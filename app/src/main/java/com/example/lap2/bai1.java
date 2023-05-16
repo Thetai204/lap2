@@ -13,13 +13,14 @@ public class bai1 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Button btn =findViewById(R.id.btn_click);
+        Button btn = findViewById(R.id.btn_click);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                Intent iet = new Intent(bai1.this, bai2.class);
-               startActivity(iet);
+                Intent intent = new Intent(bai1.this, bai2.class);
+
+                startActivity(intent);
             }
         });
     }

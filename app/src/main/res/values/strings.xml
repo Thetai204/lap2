@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">lap2</string>
+    <string name="txt_gioitinh">Gioi tinh</string>
+    <string name="txt_sothich">Sở thích:</string>
+    <string name="chon_gioitinh">Chua chon gioi tinh</string>
+    <string name="dabong_choigame">Da bong ,choigame</string>
 </resources>

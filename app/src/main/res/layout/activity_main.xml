@@ -7,12 +7,14 @@
     android:orientation="vertical"
     android:gravity="center_horizontal"
     android:padding="16dp"
+    android:background="@android:color/holo_green_light"
     tools:context=".bai1">
 
     <ImageView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/images"/>
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logo_fpt_2"/>
 
     <EditText
         android:id="@+id/edt_hoten"
@@ -73,7 +75,9 @@
         android:id="@+id/btn_click"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Click me!"/>
+        android:drawableRight="@android:drawable/ic_menu_save"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:text="Luu du lieu"/>
 
     <TextView
         android:layout_width="wrap_content"
